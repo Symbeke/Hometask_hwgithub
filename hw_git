@@ -1,0 +1,4 @@
+let num =789;
+const numsArr = num => {
+    return String(num).split('').map((num)=>Number(num))}
+console.log(numsArr(num));
